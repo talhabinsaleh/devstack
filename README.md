@@ -6,8 +6,8 @@ personal "stack" by adding and removing tools from a curated list. It was
 built as a learning project to practice component-driven UI development with
 React and TypeScript.
 
-**Live site:** _add your Vercel URL here_
-**Repository:** _add your GitHub repo URL here_
+**Live site:** https://devstack-theta.vercel.app
+**Repository:** https://github.com/talhabinsaleh/devstack
 
 ## Tech Stack
 
