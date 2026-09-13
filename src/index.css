@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+/*
+  Single source of truth for the brand gradient.
+  Change these three stops to re-theme the whole site.
+*/
+:root {
+  --brand-from: #f97316; /* orange */
+  --brand-via: #ec4899; /* pink */
+  --brand-to: #8b5cf6; /* violet */
+}
+
+body {
+  @apply bg-white text-slate-600;
+}
+
+.gradient-text {
+  background-image: linear-gradient(
+    to right,
+    var(--brand-from),
+    var(--brand-via),
+    var(--brand-to)
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.gradient-bg {
+  background-image: linear-gradient(
+    to right,
+    var(--brand-from),
+    var(--brand-via),
+    var(--brand-to)
+  );
+}
