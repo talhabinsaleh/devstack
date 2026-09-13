@@ -20,7 +20,14 @@ function Navbar() {
         <ul className="hidden items-center gap-8 text-sm font-medium text-slate-600 md:flex">
           {NAV_LINKS.map((link) => (
             <li key={link}>
-              <a href={`#${link.toLowerCase()}`} className="transition hover:text-slate-900">
+              <a
+                href={`#${link.toLowerCase()}`}
+                className={
+                  link === 'Home'
+                    ? 'font-semibold text-pink-500'
+                    : 'transition hover:text-slate-900'
+                }
+              >
                 {link}
               </a>
             </li>
