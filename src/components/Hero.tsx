@@ -2,6 +2,7 @@ function StackGraphic() {
   return (
     <div className="relative flex h-64 w-64 items-center justify-center sm:h-80 sm:w-80">
       <div className="absolute h-56 w-56 rounded-full bg-gradient-to-br from-orange-200 via-pink-200 to-violet-200 blur-2xl sm:h-72 sm:w-72" />
+
       <div className="relative flex flex-col items-center gap-3">
         <div className="gradient-bg h-8 w-40 rounded-lg shadow-lg shadow-pink-200 sm:w-52" />
         <div className="h-8 w-48 rounded-lg border border-slate-200 bg-white shadow-lg shadow-slate-200 sm:w-60" />

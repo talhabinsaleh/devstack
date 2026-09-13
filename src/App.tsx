@@ -47,18 +47,33 @@ function App() {
       <Navbar />
       <Hero />
 
-      {loading ? (
-        <Loader />
-      ) : (
-        <>
-          <TechGrid
-            technologies={technologies}
-            stackIds={stack.map((item) => item.id)}
-            onAdd={handleAdd}
-          />
-          <StackSidebar stack={stack} onRemove={handleRemove} onRemoveAll={handleRemoveAll} />
-        </>
-      )}
+      <section id="technologies" className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
+        <div className="mb-10">
+          <h2 className="text-3xl font-bold text-slate-900 sm:text-4xl">
+            Explore the <span className="gradient-text">Technologies</span>
+          </h2>
+          <p className="mt-3 max-w-xl text-slate-500">
+            Pick one technology per category to build your ideal stack.
+          </p>
+        </div>
+
+        {loading ? (
+          <Loader />
+        ) : (
+          <div className="grid grid-cols-1 gap-8 lg:grid-cols-4">
+            <div className="lg:col-span-3">
+              <TechGrid
+                technologies={technologies}
+                stackIds={stack.map((item) => item.id)}
+                onAdd={handleAdd}
+              />
+            </div>
+            <div className="lg:col-span-1">
+              <StackSidebar stack={stack} onRemove={handleRemove} onRemoveAll={handleRemoveAll} />
+            </div>
+          </div>
+        )}
+      </section>
 
       <section id="about" className="mx-auto max-w-3xl px-4 pb-16 text-center sm:px-6">
         <h2 className="text-2xl font-bold text-slate-900 sm:text-3xl">

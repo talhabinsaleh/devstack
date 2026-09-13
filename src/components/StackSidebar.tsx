@@ -10,7 +10,7 @@ function StackSidebar({ stack, onRemove, onRemoveAll }: StackSidebarProps) {
   return (
     <aside
       id="projects"
-      className="mx-auto -mt-6 mb-16 w-full max-w-md rounded-2xl border border-slate-200 bg-white p-6 shadow-sm sm:p-8"
+      className="sticky top-24 w-full rounded-2xl border border-slate-200 bg-white p-6 shadow-sm"
     >
       <div className="mb-4 flex items-center justify-between">
         <h3 className="text-lg font-bold text-slate-900">
