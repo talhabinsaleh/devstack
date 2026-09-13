@@ -6,12 +6,12 @@ interface TechCardProps {
   onAdd: (tech: Technology) => void
 }
 
+// Pastel tints of the brand gradient stops (orange -> pink -> violet),
+// so badge colors read as one deliberate palette instead of random hues.
 const BADGE_COLORS = [
-  'bg-emerald-50 text-emerald-600',
+  'bg-orange-50 text-orange-600',
+  'bg-pink-50 text-pink-600',
   'bg-violet-50 text-violet-600',
-  'bg-sky-50 text-sky-600',
-  'bg-amber-50 text-amber-600',
-  'bg-rose-50 text-rose-600',
 ]
 
 function badgeColor(id: number) {
