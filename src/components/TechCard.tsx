@@ -50,7 +50,7 @@ function TechCard({ tech, isAdded, onAdd }: TechCardProps) {
             : 'mt-5 rounded-lg bg-slate-900 py-2 text-sm font-semibold text-white transition hover:bg-slate-800'
         }
       >
-        {isAdded ? 'Added to Stack' : 'Add to Stack'}
+        {isAdded ? '✓ Added to Stack' : 'Add to Stack'}
       </button>
     </div>
   )

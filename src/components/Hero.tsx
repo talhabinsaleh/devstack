@@ -24,7 +24,7 @@ function Hero() {
               Explore Technologies
             </a>
             <a
-              href="#about"
+              href="#technologies"
               className="w-full rounded-lg border border-slate-200 px-6 py-3 text-sm font-semibold text-slate-700 transition hover:border-slate-300 sm:w-auto"
             >
               Learn More
@@ -36,7 +36,7 @@ function Hero() {
           <img
             src={bannerStack}
             alt="Isometric illustration of a layered development stack"
-            className="w-64 sm:w-80"
+            className="w-80 sm:w-[26rem]"
           />
         </div>
       </div>

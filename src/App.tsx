@@ -75,17 +75,6 @@ function App() {
         )}
       </section>
 
-      <section id="about" className="mx-auto max-w-3xl px-4 pb-16 text-center sm:px-6">
-        <h2 className="text-2xl font-bold text-slate-900 sm:text-3xl">
-          About <span className="gradient-text">DevStack</span>
-        </h2>
-        <p className="mt-3 text-slate-500">
-          DevStack is a learning project built to practice React, TypeScript, and
-          component-driven UI design by letting you explore real-world web
-          technologies and assemble your own development stack.
-        </p>
-      </section>
-
       <Footer />
       <ToastContainer theme="light" position="bottom-right" />
     </div>

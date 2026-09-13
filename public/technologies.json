@@ -34,7 +34,7 @@
     "name": "Express.js",
     "category": "Backend",
     "description": "A minimal and flexible Node.js framework for building APIs and web servers.",
-    "icon": "https://cdn.simpleicons.org/express/FFFFFF",
+    "icon": "https://cdn.simpleicons.org/express/000000",
     "rating": 4.4,
     "difficulty": "Beginner",
     "badge": "Essential"
