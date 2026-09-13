@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "React",
+    "category": "Frontend",
+    "description": "A component-based JavaScript library for building fast, interactive user interfaces.",
+    "icon": "https://cdn.simpleicons.org/react/61DAFB",
+    "rating": 4.8,
+    "difficulty": "Intermediate",
+    "badge": "Popular"
+  },
+  {
+    "id": 2,
+    "name": "TypeScript",
+    "category": "Language",
+    "description": "A strongly typed superset of JavaScript that catches bugs before they reach production.",
+    "icon": "https://cdn.simpleicons.org/typescript/3178C6",
+    "rating": 4.7,
+    "difficulty": "Intermediate",
+    "badge": "Trending"
+  },
+  {
+    "id": 3,
+    "name": "Node.js",
+    "category": "Backend",
+    "description": "A JavaScript runtime that lets you build fast, scalable server-side applications.",
+    "icon": "https://cdn.simpleicons.org/nodedotjs/5FA04E",
+    "rating": 4.6,
+    "difficulty": "Intermediate",
+    "badge": "Popular"
+  },
+  {
+    "id": 4,
+    "name": "Express.js",
+    "category": "Backend",
+    "description": "A minimal and flexible Node.js framework for building APIs and web servers.",
+    "icon": "https://cdn.simpleicons.org/express/FFFFFF",
+    "rating": 4.4,
+    "difficulty": "Beginner",
+    "badge": "Essential"
+  },
+  {
+    "id": 5,
+    "name": "MongoDB",
+    "category": "Database",
+    "description": "A flexible NoSQL document database built for modern, JSON-style application data.",
+    "icon": "https://cdn.simpleicons.org/mongodb/47A248",
+    "rating": 4.5,
+    "difficulty": "Beginner",
+    "badge": "Popular"
+  },
+  {
+    "id": 6,
+    "name": "PostgreSQL",
+    "category": "Database",
+    "description": "A powerful open-source relational database known for reliability and SQL compliance.",
+    "icon": "https://cdn.simpleicons.org/postgresql/4169E1",
+    "rating": 4.7,
+    "difficulty": "Intermediate",
+    "badge": "Reliable"
+  },
+  {
+    "id": 7,
+    "name": "Tailwind CSS",
+    "category": "Styling",
+    "description": "A utility-first CSS framework for rapidly building custom, responsive designs.",
+    "icon": "https://cdn.simpleicons.org/tailwindcss/38BDF8",
+    "rating": 4.8,
+    "difficulty": "Beginner",
+    "badge": "Loved"
+  },
+  {
+    "id": 8,
+    "name": "Sass",
+    "category": "Styling",
+    "description": "A CSS preprocessor that adds variables, nesting, and mixins to plain stylesheets.",
+    "icon": "https://cdn.simpleicons.org/sass/CC6699",
+    "rating": 4.2,
+    "difficulty": "Beginner",
+    "badge": "Classic"
+  },
+  {
+    "id": 9,
+    "name": "Docker",
+    "category": "DevOps",
+    "description": "A containerization platform that packages apps so they run the same everywhere.",
+    "icon": "https://cdn.simpleicons.org/docker/2496ED",
+    "rating": 4.6,
+    "difficulty": "Advanced",
+    "badge": "Industry Standard"
+  },
+  {
+    "id": 10,
+    "name": "GitHub Actions",
+    "category": "DevOps",
+    "description": "A CI/CD platform built into GitHub for automating builds, tests, and deployments.",
+    "icon": "https://cdn.simpleicons.org/githubactions/2088FF",
+    "rating": 4.5,
+    "difficulty": "Intermediate",
+    "badge": "Automation"
+  },
+  {
+    "id": 11,
+    "name": "Vite",
+    "category": "Tools",
+    "description": "A lightning-fast build tool and dev server for modern frontend frameworks.",
+    "icon": "https://cdn.simpleicons.org/vite/646CFF",
+    "rating": 4.9,
+    "difficulty": "Beginner",
+    "badge": "Fast"
+  },
+  {
+    "id": 12,
+    "name": "Figma",
+    "category": "Tools",
+    "description": "A collaborative interface design tool used to plan and prototype UIs before coding.",
+    "icon": "https://cdn.simpleicons.org/figma/F24E1E",
+    "rating": 4.7,
+    "difficulty": "Beginner",
+    "badge": "Design"
+  }
+]
